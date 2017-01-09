@@ -9,3 +9,5 @@ fi
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias la='ls -a'
+alias python='python3'
+alias pip='pip3'

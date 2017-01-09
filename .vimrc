@@ -5,3 +5,4 @@ set background=dark
 colorscheme solarized
 set relativenumber
 set number
+set cursorline
