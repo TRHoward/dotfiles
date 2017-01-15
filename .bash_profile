@@ -11,3 +11,4 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias la='ls -a'
 alias python='python3'
 alias pip='pip3'
+alias vim='mvim -v'
