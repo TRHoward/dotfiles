@@ -29,6 +29,8 @@ nnoremap <Space> <Nop>
 let mapleader = "\<Space>"
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>nt :Te<CR>
+nnoremap <leader>h :sp<CR>
+nnoremap <leader>v :vsp<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
