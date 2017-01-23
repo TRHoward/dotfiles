@@ -28,6 +28,7 @@ let g:NERDSpaceDelims = 1
 nnoremap <Space> <Nop>
 let mapleader = "\<Space>"
 nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>py "0p
 nnoremap <leader>nt :Te<CR>
 nnoremap <leader>h :sp<CR>
 nnoremap <leader>v :vsp<CR>
