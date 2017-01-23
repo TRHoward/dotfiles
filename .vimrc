@@ -32,6 +32,7 @@ nnoremap <leader>py "0p
 nnoremap <leader>nt :Te<CR>
 nnoremap <leader>h :sp<CR>
 nnoremap <leader>v :vsp<CR>
+nnoremap <leader>pc "*p
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -40,4 +41,3 @@ nnoremap <C-H> <C-W><C-H>
 :command W w
 :command Q q
 :command Wq wq
-
