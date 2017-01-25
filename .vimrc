@@ -1,6 +1,18 @@
-execute pathogen#infect()
-syntax on
+" Setting up vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ervandew/supertab'
+Plugin 'godlygeek/tabular'
+call vundle#end()
+
+
 filetype plugin indent on
+syntax on
 set background=dark
 set relativenumber
 set number
