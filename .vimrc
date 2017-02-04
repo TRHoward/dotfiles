@@ -8,6 +8,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 
@@ -32,6 +33,7 @@ set novb
 set nobackup
 set nowritebackup
 set noswapfile
+set incsearch
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_show_hidden = 1
