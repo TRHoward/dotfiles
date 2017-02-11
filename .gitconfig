@@ -1,0 +1,9 @@
+[user]
+	name = Taylor Howard
+	email = taylorhoward10@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  aa = add .
