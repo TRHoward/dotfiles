@@ -4,16 +4,21 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-fugitive'
+Plugin 'morhetz/gruvbox'
+Plugin 'tpope/vim-surround'
 call vundle#end()
-
 
 filetype plugin indent on
 syntax on
+set macligatures
+set guifont=Fira\ Code:h12
+colorscheme gruvbox
 set background=dark
 set relativenumber
 set number
@@ -21,8 +26,8 @@ set ignorecase
 set smartcase
 set history=100
 set undolevels=100
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set noerrorbells
 set nowrap
@@ -34,11 +39,14 @@ set nobackup
 set nowritebackup
 set noswapfile
 set incsearch
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<c-t>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_working_path_mode = 0
 let g:NERDSpaceDelims = 1
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|idea\|dist'
+let NERDTreeQuitOnOpen=1
+
 nnoremap <Space> <Nop>
 let mapleader = "\<Space>"
 nnoremap <leader>t :NERDTreeToggle<CR>
