@@ -10,6 +10,7 @@
   ai = add -i
   ci = commit
   co = checkout
+  fe = fetch
   amend = commit --amend
 
   # Fancy logging.
