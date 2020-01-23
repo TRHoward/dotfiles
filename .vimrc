@@ -1,6 +1,6 @@
 " Setting up vundle
-set nocompatible
 filetype off
+set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'chemzqm/vim-jsx-improve'
@@ -13,6 +13,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-fugitive'
 Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-surround'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 
 filetype plugin indent on
