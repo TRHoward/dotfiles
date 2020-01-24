@@ -12,6 +12,9 @@
   co = checkout
   fe = fetch
   amend = commit --amend
+  all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
+  fp = push --force-with-lease
+  cia = commit --amend --no-edit
 
   # Fancy logging.
   # h = head
@@ -27,11 +30,13 @@
   ra = !git r --all
   l = "!. ~/.githelpers && pretty_git_log"
   la = !git l --all
+  rsh = reset --hard @{u}
 
 [pager]
   diff = less -F -X
-
 [push]
+	default = current
+[pull]
 	default = current
 [core]
 	editor = vim
@@ -39,3 +44,8 @@
 [user]
 	name = Taylor Ray Howard
 	email = taylor@taylorrayhoward.com
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red
+
